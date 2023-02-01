@@ -455,9 +455,12 @@ li>button:hover {
 */
 
 span,
-.logoText {
+.logoText {color: transparent;
+  -moz-text-fill-color: transparent;
   background: -webkit-linear-gradient(140deg, #49c5f6, #ff2aef);
   background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
